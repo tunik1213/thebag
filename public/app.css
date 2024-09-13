@@ -40,13 +40,26 @@ img#logo-image {
 }
 
 #main-slide-1 {
-  background-image: url('/img/main1.jpg');
+  background-image: url('/img/pink1.jpg');
 }
 #main-slide-2 {
-  background-image: url('/img/main2.jpg');
+  background-image: url('/img/blue1.jpg');
 }
 #main-slide-3 {
-  background-image: url('/img/main3.jpg');
+  background-image: url('/img/black1.jpg');
+}
+#main-slide-4 {
+  background-image: url('/img/pink2.jpg');
+}
+#main-slide-5 {
+  background-image: url('/img/blue2.jpg');
+}
+#main-slide-6 {
+  background-image: url('/img/black2.jpg');
+}
+#mainCarousel {
+  margin: 0 auto;
+  max-width: 1200px;
 }
 .carousel-item {
   height: 95dvh;
@@ -96,12 +109,17 @@ body {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
-  background: #0000003d;
-  padding: 2em;
+    bottom: 0;
+    left: 0;
+    right:0;
+    z-index: 10;
+    background: linear-gradient(rgba(0,0,0,0.0), #343a40ab 20%);
+    padding: 2rem 2rem 4rem 2rem;
 }
 
+.carousel-caption > .container {
+  padding: 0 10%;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -139,12 +157,9 @@ body {
 -------------------------------------------------- */
 
 @media (max-width: 800px) {
-  /*.carousel-item > img {
-    position: relative;
-    right: 50%;
-    height: 100%;
-    width: auto;
-  }*/
+  #main-slide-6 {
+    background-position-x: -100px;
+  }
   .carousel-caption {
     margin: 0 -4em;
   }
