@@ -29,6 +29,7 @@ body > main {
 }
 .navbar-brand {
   padding: 0 !important;
+  margin: 0 !important;
 }
 .navbar-brand > span {
   height: 3rem;
