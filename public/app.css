@@ -24,6 +24,18 @@ body > main {
   padding-right: 15px;
   padding-left: 15px;
 }
+.navbar {
+  padding: 0 !important;
+}
+.navbar-brand {
+  padding: 0 !important;
+}
+.navbar-brand > span {
+  height: 3rem;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #343a40;
+}
 
 code {
   font-size: 80%;
@@ -33,6 +45,12 @@ code {
 img#logo-image {
   max-height: 3em;
   margin: -0.5em 0;
+}
+#logo-B{
+  color: #9FCEE8;
+}
+#logo-G{
+  color: #FDC9D6;
 }
 .btn.btn-primary {
   background-color: #343a40!important;
@@ -79,7 +97,7 @@ img#logo-image {
 #header-container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
 }
 #header-slogan {
   color: white;

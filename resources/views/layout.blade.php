@@ -14,10 +14,13 @@
   <body>
     
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light">
         <div id="header-container" class="container">
-          <a class="navbar-brand" href="/"><img id="logo-image" src="/logo.png" /></a>
-          <span id="header-slogan">Сумка - твій всесвіт!</span>
+          <a class="navbar-brand" href="/">
+            <!-- <img id="logo-image" src="/logo.png" /> -->
+            <span>THE BAG</span>
+          </a>
+          <!-- <span id="header-slogan">Сумка - твій всесвіт!</span> -->
         </div>
         
       </nav>
