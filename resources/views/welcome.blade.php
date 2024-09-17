@@ -19,7 +19,7 @@
             <div class="container">
               <h1>Сумка Bubble Gum</h1>
               <p>Сумка з еко-шкіри ручної роботи, яка <br /> підкреслить твою яскраву особистість</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Детальніше</a></p>
+              <p><a class="btn btn-lg btn-primary" href="/product/bubble_gum" role="button">Детальніше</a></p>
             </div>
           </div>
         </div>
@@ -31,7 +31,7 @@
             <div class="container">
               <h1>Сумка Ocean</h1>
               <p>Сумка з еко-шкіри ручної роботи, яка <br /> підкреслить твою індивідуальність</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Дізнатися більше</a></p>
+              <p><a class="btn btn-lg btn-primary" href="/product/ocean" role="button">Дізнатися більше</a></p>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@
             <div class="container">
               <h1>Cумка She</h1>
               <p>Сумка з натуральної шкіри ручної <br /> роботи, яку хочеться носити щодня</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Докладніше</a></p>
+              <p><a class="btn btn-lg btn-primary" href="/product/she" role="button">Докладніше</a></p>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@
             <div class="container">
               <h1>Сумка Bubble Gum</h1>
               <p>Сумка з еко-шкіри ручної роботи, яка <br /> підкреслить твою яскраву особистість</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Детальніше</a></p>
+              <p><a class="btn btn-lg btn-primary" href="/product/bubble_gum" role="button">Детальніше</a></p>
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@
             <div class="container">
               <h1>Сумка Ocean</h1>
               <p>Сумка з еко-шкіри ручної роботи, <br /> яка підкреслить твою індивідуальність</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Дізнатися більше</a></p>
+              <p><a class="btn btn-lg btn-primary" href="/product/ocean" role="button">Дізнатися більше</a></p>
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@
             <div class="container">
               <h1>Cумка She</h1>
               <p>Сумка з натуральної шкіри ручної <br /> роботи, яку хочеться носити щодня</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Докладніше</a></p>
+              <p><a class="btn btn-lg btn-primary" href="/product/she" role="button">Докладніше</a></p>
             </div>
           </div>
         </div>
