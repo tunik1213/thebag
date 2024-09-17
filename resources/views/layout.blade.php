@@ -3,18 +3,19 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="{{$viewdata['description'] ?? 'THE BAG - сумки ручної роботи з еко-шкіри'}}">
     <meta name="author" content="">
 
-    <title>The bag</title>
+    <title>{{$viewdata['title'] ?? 'THE BAG - Та сама сумка'}}</title>
 
     <link href="/bootstrap.min.css" rel="stylesheet">
-    <link href="app.css" rel="stylesheet">
+    <link href="/app.css" rel="stylesheet">
+    @yield('head')
   </head>
   <body>
     
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light">
+      <nav class="navbar navbar-expand-md bg-light">
         <div id="header-container" class="container">
           <a class="navbar-brand" href="/">
             <!-- <img id="logo-image" src="/logo.png" /> -->
@@ -28,7 +29,9 @@
 
     <main role="main" class="">
 
+        <div class="container" id="mainContainer">
         @yield('content', 'Default content')
+        </div>
 
     </main>
 
@@ -38,8 +41,9 @@
       </div>
     </footer>
 
-    <script src="/jquery-3.3.1.slim.min.js"></script>
+    <script src="/jquery-3.7.1.min.js"></script>
     <script src="/bootstrap.min.js"></script>
     <script src="/popper.min.js"></script>
+    @yield('scripts')
   </body>
 </html>

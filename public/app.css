@@ -4,7 +4,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  padding-bottom: 3rem;
   background-color: #f5f5f5;
 }
 .footer {
@@ -12,12 +12,13 @@ body {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
-  line-height: 60px; /* Vertically center the text there */
+  height: 3rem;
+  line-height: 3rem; /* Vertically center the text there */
   background-color: #f5f5f5;
 }
 body > main {
-  margin-bottom: -5vh;
+  padding-bottom: -5dvh;
+  min-height: 95dvh;
 }
 
 .footer > .container {
@@ -76,9 +77,12 @@ img#logo-image {
 #main-slide-6 {
   background-image: url('/img/black2.jpg');
 }
-#mainCarousel {
+#mainContainer {
+  background-color: white;
+  min-height: 95dvh;
   margin: 0 auto;
   max-width: 1200px;
+  padding: 0;
 }
 .carousel-item {
   height: 95dvh;
@@ -94,7 +98,10 @@ img#logo-image {
   background-position-x: center;
   background-position-y: center;
 }
-
+#header {
+  position: absolute;
+  display: flex;
+}
 #header-container {
   display: flex;
   flex-direction: row;
@@ -105,17 +112,6 @@ img#logo-image {
   font-size: 1.2em;
 }
 
-
-
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
-body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: #5a5a5a;
-}
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -170,6 +166,26 @@ body {
   line-height: 1;
   letter-spacing: -.05rem;
 }
+
+
+
+
+/* product */
+#product-title {
+  padding: 2rem 0 1rem 0;
+  font-size: 2rem;  
+}
+#product-images {
+  margin-bottom: 2rem;
+}
+#product-detail {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+#product-price {
+  font-size: 3rem;
+}
+
 
 
 /* RESPONSIVE CSS
