@@ -18,7 +18,7 @@
           <div class="carousel-caption text-right">
             <div class="container">
               <h1>Сумка Bubble Gum</h1>
-              <p>Сумка з еко-шкіри ручної роботи, яка <br /> підкреслить твою яскраву особистість</p>
+              <p>Сумка з еко-шкіри ручної роботи, яка <br /> підкреслить вашу яскраву особистість</p>
               <p><a class="btn btn-lg btn-primary" href="/product/bubble_gum" role="button">Детальніше</a></p>
             </div>
           </div>
@@ -30,7 +30,7 @@
           <div class="carousel-caption text-right">
             <div class="container">
               <h1>Сумка Ocean</h1>
-              <p>Сумка з еко-шкіри ручної роботи, яка <br /> підкреслить твою індивідуальність</p>
+              <p>Сумка з еко-шкіри ручної роботи, яка <br /> підкреслить вашу індивідуальність</p>
               <p><a class="btn btn-lg btn-primary" href="/product/ocean" role="button">Дізнатися більше</a></p>
             </div>
           </div>
@@ -54,7 +54,7 @@
           <div class="carousel-caption text-left">
             <div class="container">
               <h1>Сумка Bubble Gum</h1>
-              <p>Сумка з еко-шкіри ручної роботи, яка <br /> підкреслить твою яскраву особистість</p>
+              <p>Сумка з еко-шкіри ручної роботи, яка <br /> підкреслить вашу яскраву особистість</p>
               <p><a class="btn btn-lg btn-primary" href="/product/bubble_gum" role="button">Детальніше</a></p>
             </div>
           </div>
@@ -66,7 +66,7 @@
           <div class="carousel-caption text-left">
             <div class="container">
               <h1>Сумка Ocean</h1>
-              <p>Сумка з еко-шкіри ручної роботи, <br /> яка підкреслить твою індивідуальність</p>
+              <p>Сумка з еко-шкіри ручної роботи, <br /> яка підкреслить вашу індивідуальність</p>
               <p><a class="btn btn-lg btn-primary" href="/product/ocean" role="button">Дізнатися більше</a></p>
             </div>
           </div>
@@ -93,6 +93,16 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
+  </div>
+
+{{-- trick for preloading images --}}
+  <div style="display:none">
+    <img src="/img/pink1.jpg" />
+    <img src="/img/pink2.jpg" />
+    <img src="/img/blue1.jpg" />
+    <img src="/img/blue2.jpg" />
+    <img src="/img/black1.jpg" />
+    <img src="/img/black2.jpg" />
   </div>
 
 @endsection
