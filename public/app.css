@@ -175,7 +175,7 @@ img#logo-image {
   padding-top: 2rem;
 }
 #product-title {
-  padding: 1rem 0 1rem 0;
+  padding: 1rem 0 1rem 1rem;
   display: flex;
   justify-content: space-between;
 }
@@ -194,6 +194,7 @@ img#logo-image {
 }
 #product-price {
   text-align: right;
+  padding-right: 1rem;
 }
 
 
