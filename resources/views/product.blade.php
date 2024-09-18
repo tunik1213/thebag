@@ -9,14 +9,21 @@
 @extends('layout')
 @section('content')
 
-<div class="container">
-	<h1 id="product-title">{{ $product->name }}</h1>
+<div class="container" id="product-page">
 
 	<div class="row">
 
 		<div id="product-images" class="col-lg-6 col-md-12">
 			
-			<div class="fotorama" data-width="1200" data-max-width="100%" data-loop="true" data-autoplay="true" data-allowfullscreen="true" data-fit="cover">
+			<div class="fotorama" 
+				data-width="1200" 
+				data-max-width="100%" 
+				data-height="600" 
+				data-fit="cover"
+				data-loop="true" 
+				data-autoplay="true" 
+				data-allowfullscreen="true"
+			>
 				@foreach ($images as $filename)
 					@if(substr($filename, 0)=='.')
 						@continue
@@ -28,8 +35,11 @@
 		</div>
 
 		<div id="product-detail" class="col-lg-6 col-md-12">
-			<div id="product-price">
-				{{$product->price}} грн.
+			<div id="product-title">
+				<h1>{{ $product->name }}</h1>
+				<div id="product-price">
+					{{$product->price}} грн.
+				</div>
 			</div>
 
 			<div id="prodict-description">

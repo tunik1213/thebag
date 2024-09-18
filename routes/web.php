@@ -11,8 +11,8 @@ Route::get('/product/{slug}', function (string $slug) {
 
     $viewdata = [
         'product' => $p,
-        'title' => $p->name,
-        'description' => $p->description
+        'title' => $p->meta_title,
+        'description' => $p->meta_description
     ];
 
     return view('product',['viewdata'=>$viewdata]);

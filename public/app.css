@@ -171,9 +171,19 @@ img#logo-image {
 
 
 /* product */
+#product-page {
+  padding-top: 2rem;
+}
 #product-title {
-  padding: 2rem 0 1rem 0;
-  font-size: 2rem;  
+  padding: 1rem 0 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+#product-title > * {
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+    line-height: 3rem;
 }
 #product-images {
   margin-bottom: 2rem;
@@ -183,7 +193,7 @@ img#logo-image {
   padding-bottom: 2rem;
 }
 #product-price {
-  font-size: 3rem;
+  text-align: right;
 }
 
 
@@ -197,6 +207,11 @@ img#logo-image {
   }
   .carousel-caption {
     margin: 0 -4em;
+  }
+}
+@media (max-width: 500px) {
+  #product-title > * {
+    font-size: 2rem;
   }
 }
 
