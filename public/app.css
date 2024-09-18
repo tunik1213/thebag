@@ -208,6 +208,9 @@ img#logo-image {
   .carousel-caption {
     margin: 0 -4em;
   }
+  #product-page {
+    padding: 0;
+  }
 }
 @media (max-width: 500px) {
   #product-title > * {
