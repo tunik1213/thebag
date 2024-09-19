@@ -21,9 +21,19 @@ body > main {
   min-height: 95dvh;
 }
 
-.footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
+.footer {
+  font-size: 1.2rem;
+}
+#footer-links {
+  padding: 2rem 0;
+  list-style: none;
+  display: flex;
+}
+#footer-links>li {
+    padding-right: 2rem;
+}
+#footer-instagram-link > * {
+  display: inline-block;
 }
 .navbar {
   padding: 0 !important;
@@ -36,7 +46,13 @@ body > main {
   height: 3rem;
   font-size: 3rem;
   line-height: 3rem;
+}
+a {
   color: #343a40;
+}
+a:hover {
+  color: #343a40;
+  text-decoration: none;
 }
 
 code {
@@ -211,6 +227,9 @@ img#logo-image {
   }
   #product-page {
     padding: 0;
+  }
+  #footer-links {
+    flex-direction: column;
   }
 }
 @media (max-width: 500px) {
