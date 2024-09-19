@@ -42,8 +42,10 @@
 
     <footer class="footer">
       <div class="container">
-        <span class="text-muted">footer content here.</span>
+        <a class="text-muted" href="https://www.instagram.com/the_bag_is_your_world"><img src="/instagram.png" />
+          <span>THE_BAG_IS_YOUR_WORLD</span></a>
       </div>
+      <div class="text-center">© {{date("Y")}}</div>
     </footer>
 
     <script src="/jquery-3.7.1.min.js"></script>
