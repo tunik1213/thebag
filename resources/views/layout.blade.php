@@ -42,8 +42,17 @@
 
     <footer class="footer">
       <div class="container">
-        <a class="text-muted" href="https://www.instagram.com/the_bag_is_your_world"><img src="/instagram.png" />
-          <span>THE_BAG_IS_YOUR_WORLD</span></a>
+        <ul id="footer-links">
+            <li><a href="/">На головну</a></li>
+            <li><a href="#">Про нас</a></li>
+            <!-- <li><a href="#">Контакти</a></li> -->
+            <li>
+              <a id="footer-instagram-link" href="https://www.instagram.com/the_bag_is_your_world">
+              <img loading="lazy" width="24" height="24" src="/instagram_icon.svg">
+              <span> THE_BAG_IS_YOUR_WORLD</span></a>
+            </li>
+        </ul>
+        
       </div>
       <div class="text-center">© {{date("Y")}}</div>
     </footer>
