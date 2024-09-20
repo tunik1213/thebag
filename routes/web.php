@@ -1,19 +1,14 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Controller;
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/product/{slug}', function (string $slug) {
-    $p = App\Models\Product::where('slug', $slug)->firstOrFail();
+Route::get('/product/{slug}', [Controller::class, 'product']);
 
-    $viewdata = [
-        'product' => $p,
-        'title' => $p->meta_title,
-        'description' => $p->meta_description
-    ];
 
-    return view('product',['viewdata'=>$viewdata]);
-});
+Route::get('/checkout', [Controller::class, 'checkout']);
+
