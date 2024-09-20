@@ -60,6 +60,8 @@
     <script src="/jquery-3.7.1.min.js"></script>
     <script src="/bootstrap.min.js"></script>
     <script src="/popper.min.js"></script>
-    @yield('scripts')
+    <script type="text/javascript">
+      @yield('scripts')
+    </script>
   </body>
 </html>
