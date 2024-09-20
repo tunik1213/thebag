@@ -25,7 +25,7 @@
 				data-allowfullscreen="true"
 			>
 				@foreach ($images as $filename)
-					@if(substr($filename, 0)=='.')
+					@if(substr($filename, 0, 1)=='.')
 						@continue
 					@endif
 					<img src="{{$publicPath}}/{{$filename}}" />
