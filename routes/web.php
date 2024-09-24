@@ -11,4 +11,5 @@ Route::get('/product/{slug}', [Controller::class, 'product']);
 
 
 Route::get('/checkout', [Controller::class, 'checkout']);
+Route::post('/ordercomplete', [Controller::class, 'ordercomplete']);
 

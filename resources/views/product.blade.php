@@ -47,7 +47,7 @@
 			</div>
 
 			<div id="product-buy">
-				<a href="/checkout?p={{$product->id}}" id="btn-buy">КУПИТИ</a>
+				<a href="/checkout?p={{$product->slug}}" id="btn-buy">КУПИТИ</a>
 			</div>
 		</div>
 
