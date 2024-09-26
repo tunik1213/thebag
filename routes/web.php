@@ -13,3 +13,5 @@ Route::get('/product/{slug}', [Controller::class, 'product']);
 Route::get('/checkout', [Controller::class, 'checkout']);
 Route::post('/ordercomplete', [Controller::class, 'ordercomplete']);
 
+Route::get('/notification', [Controller::class,'notification']);
+Route::post('/addnotification', [Controller::class, 'addnotification']);
