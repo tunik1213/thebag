@@ -190,7 +190,7 @@ img#logo-image {
 #product-page {
   padding-top: 2rem;
 }
-#product-title {
+#product-title,#price-discount {
   padding: 1rem 0 1rem 1rem;
   display: flex;
   justify-content: space-between;
@@ -225,6 +225,15 @@ img#logo-image {
 }
 form {
   padding: 2rem 0;
+}
+.old-price {
+  text-decoration: line-through;
+  font-size: 2rem !important;
+}
+
+#price-discount {
+  color: #dc3545;
+  font-size: 3rem;
 }
 
 

@@ -29,10 +29,17 @@ $images = scandir($internalPath);
 		<div id="product-detail" class="col-lg-6 col-md-12">
 			<div id="product-title">
 				<h1>{{ $product->name }}</h1>
-				<div id="product-price">
+				<div id="product-price" @if($product->price_discount) class="old-price" @endif</div>
 					{{$product->price}} грн.
 				</div>
 			</div>
+
+			@if($product->price_discount)
+				<div id="price-discount">
+					<div>Акція!</div>
+					<div>{{$product->price_discount}} грн.</div>
+				</div>
+			@endif
 
 			<div id="prodict-description">
 				<table class="table table-striped table-bordered">
